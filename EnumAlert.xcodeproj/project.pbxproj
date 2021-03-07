@@ -11,6 +11,8 @@
 		9ED5027325F55CAD00F6B334 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5027225F55CAD00F6B334 /* ContentView.swift */; };
 		9ED5027525F55CB000F6B334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED5027425F55CB000F6B334 /* Assets.xcassets */; };
 		9ED5027825F55CB000F6B334 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED5027725F55CB000F6B334 /* Preview Assets.xcassets */; };
+		9ED5028225F55CCD00F6B334 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5028125F55CCD00F6B334 /* Home.swift */; };
+		9ED5028725F58ACF00F6B334 /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5028625F58ACF00F6B334 /* AlertType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9ED5027425F55CB000F6B334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED5027725F55CB000F6B334 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9ED5027925F55CB000F6B334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED5028125F55CCD00F6B334 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9ED5028625F58ACF00F6B334 /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		9ED5026F25F55CAD00F6B334 /* EnumAlert */ = {
 			isa = PBXGroup;
 			children = (
+				9ED5028525F58ABB00F6B334 /* ViweModel */,
+				9ED5028025F55CC400F6B334 /* View */,
 				9ED5027025F55CAD00F6B334 /* EnumAlertApp.swift */,
 				9ED5027225F55CAD00F6B334 /* ContentView.swift */,
 				9ED5027425F55CB000F6B334 /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				9ED5027725F55CB000F6B334 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9ED5028025F55CC400F6B334 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9ED5028125F55CCD00F6B334 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ED5028525F58ABB00F6B334 /* ViweModel */ = {
+			isa = PBXGroup;
+			children = (
+				9ED5028625F58ACF00F6B334 /* AlertType.swift */,
+			);
+			path = ViweModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED5028725F58ACF00F6B334 /* AlertType.swift in Sources */,
 				9ED5027325F55CAD00F6B334 /* ContentView.swift in Sources */,
+				9ED5028225F55CCD00F6B334 /* Home.swift in Sources */,
 				9ED5027125F55CAD00F6B334 /* EnumAlertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
